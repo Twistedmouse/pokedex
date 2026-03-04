@@ -63,8 +63,9 @@ button:hover {
 
 /* Pokemon List Container */
 #pokemon-list {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
 }
